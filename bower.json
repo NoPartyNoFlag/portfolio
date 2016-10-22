@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "authors": [
+    "fro59 <fernandoruedaoliva@gmail.com>"
+  ],
+  "description": "Portfolio de Fernando Rueda",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "fernando",
+    "rueda",
+    "portfolio"
+  ],
+  "license": "MIT",
+  "homepage": "NoPartyNoFlag.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
