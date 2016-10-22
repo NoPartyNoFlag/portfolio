@@ -1,0 +1,31 @@
+[{
+	"title": "Freelance",
+	"description": "Desarrollo de aplicación web propia para facilitar la búsqueda de mascotas perdidas. Aplicación hecha con Sails, un framework de node.js, mongoDB y angular JS. Alojada en el sistema PAAS de integración continua de RedHat OpenShift",
+	"projects": [{
+			"title": "PetFinder",
+			"url": "https://www.petfinder.es",
+			"description": "Apliación web de búsqueda de mascotas perdidas",
+			"technologies": ["PaaS", "Openshift", "nodeJs", "Sails", "mongoDB", "html5", "angular", "Social Login(Facebook & Google)"]
+		}
+	]
+},{
+	"title": "Arquitecto tecnológico",
+	"description": "Arquitecto tecnológico encargado de encontrar soluciones optimas e innovadoras en el centro de desarrollo ágil de Profile. Asistencia a conferencias tecnológicas (Java BCN 2015, Codemotion 2015...) para incorporar las últimas tecnologías y formar al resto del equipo.",
+	"projects": [{
+			"title": "Mutua madrileña hogar: aplicación gestión de seguros de hogar. (parte pública y privada)",
+			"url": "",
+			"description": "",
+			"technologies": ["Spring MVC", "Spring Boot", "Spring Cloud", "OAuth2", "NodeJs", "Sails", "MongoDB", "API RestFul", "Amazon AWS", "Docker", "Microservicios", "Kubernetes", "OpenShift", "Angular", "Bower", "less", "Grunt"]
+		},{
+			"title": "Consulta interactiva mesa electoral para el 20D",
+			"url": "",
+			"description": "",
+			"technologies": ["Spring MVC", "Spring Boot", "Spring Cloud", "OAuth2", "NodeJs", "Sails", "MongoDB", "API RestFul", "Amazon AWS", "Docker", "Microservicios", "Kubernetes", "OpenShift", "Angular", "Bower", "less", "Grunt"]
+		},{
+			"title": "Arquitectura microservicios aplicaciones Profile.",
+			"url": "",
+			"description": "",
+			"technologies": ["Spring MVC", "Spring Boot", "Spring Cloud", "OAuth2", "NodeJs", "Sails", "MongoDB", "API RestFul", "Amazon AWS", "Docker", "Microservicios", "Kubernetes", "OpenShift", "Angular", "Bower", "less", "Grunt"]
+		}
+	]
+}]

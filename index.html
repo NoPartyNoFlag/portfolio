@@ -1,19 +1,68 @@
 <!DOCTYPE html>
-<html ng-app="petFinderApp">
+<html lang="es">
     <head>
         <title>
           Fernando Rueda Portfolio
         </title>
-        <!--<link rel="icon" type="image/png" href="/images/dog-paw.png">-->
+        <link rel="icon" type="image/png" href="img/fernando.png">
+        <meta charset="UTF-8">
         <meta name="description" content="Busqueda de mascotas perdidas">
         <meta name="keywords" content="Fernando Rueda Oliva portfolio developer programador apps aplicaciones android web java node js">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <!--STYLES-->
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/styles.css">
         <!--STYLES END-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     </head>
-    <body>
-        Hola portfolio
+    <body ng-app="portfolio" ng-controller="HomeController"  class="container">
+        <h1 class="page-header">
+            <img src="img/fernando.png"/>
+            <br/>
+            Fernando Rueda Oliva
+            <a target="_blank" class="pull-right" href="https://es.linkedin.com/in/fernando-rueda-oliva-7772aa95"><img src="img/linkedin.png"/></a>
+        </h1>
+        <h2>Presentación</h2>
+        <p>Hola Fernando Rueda Oliva programador con más de 6 años de experiencia trabajando con diferentes clientes creando y proveeyendo soluciones tecnológicas</p>
+        
+        <h2>Experiencia profesional</h2>
+        <div>
+            <div class="row">
+                <div class="col-sm-12" ng-repeat="experience in experiencies">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">{{experience.title}}</div>
+                        <div class="panel-body">{{experience.description}}
+                            <div>
+                                <h4>Proyectos</h4>
+                                <div class="row">
+                                    <div class="col-sm-4" ng-repeat="project in experience.projects">
+                                        <h5>{{project.title}}</h5>
+                                        <p>{{project.description}} <a href="{{project.url}}">{{project.url}}</a></p>
+                                        <div>
+                                            <ul class="list-inline">
+                                                <li ng-repeat="technology in project.technologies" class="list-group-item list-group-item-info">{{technology}}</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <section>
+                      <img src="{{parallaxSrc[$index]}}" du-parallax y="background" alt="" />
+                    </section>
+                </div>
+            </div>
+        </div>
+        
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+        <script src="bower_components/angular-touch/angular-touch.min.js"></script>
+        <script src="bower_components/angular-scroll/angular-scroll.min.js"></script>
+        <script src="bower_components/ng-parallax/angular-parallax.min.js"></script>
+
+        <script src="js/app.js"></script>
     </body>
 </html>
