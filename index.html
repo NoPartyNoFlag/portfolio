@@ -21,7 +21,7 @@
             <img src="img/fernando.png"/>
             <br/>
             Fernando Rueda Oliva
-            <a target="_blank" class="pull-right" href="https://es.linkedin.com/in/fernando-rueda-oliva-7772aa95"><img src="img/linkedin.png"/></a>
+            <a target="_blank" class="pull-right" href="https://es.linkedin.com/in/fernando-rueda-oliva-7772aa95"><img class="img-responsive" src="img/linkedin.png"/></a>
         </h1>
         <h2>Presentación</h2>
         <p>Hola Fernando Rueda Oliva programador con más de 6 años de experiencia trabajando con diferentes clientes creando y proveeyendo soluciones tecnológicas</p>
@@ -49,8 +49,12 @@
                             </div>
                         </div>
                     </div>
-                    <section>
-                      <img src="{{parallaxSrc[$index]}}" du-parallax y="background" alt="" />
+                    <section class="row">
+                        <div class="col-sm-3">&nbsp;</div>
+                        <div class="col-sm-6">
+                            <img class="img-responsive" src="{{parallaxSrc[$index]}}" du-parallax y="background" alt="" />
+                        </div>
+                        <div class="col-sm-3">&nbsp;</div>
                     </section>
                 </div>
             </div>
