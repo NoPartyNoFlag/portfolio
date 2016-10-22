@@ -47,7 +47,7 @@
                                 <div class="row">
                                     <div class="col-sm-4" ng-repeat="project in experience.projects">
                                         <h5>{{project.title}}</h5>
-                                        <p>{{project.description}} <a href="{{project.url}}">{{project.url}}</a></p>
+                                        <p>{{project.description}} <a target="_blank" href="{{project.url}}">{{project.url}}</a></p>
                                         <div>
                                             <ul class="list-inline">
                                                 <li ng-repeat="technology in project.technologies" class="list-group-item list-group-item-info">{{technology}}</li>
