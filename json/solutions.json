@@ -1,0 +1,17 @@
+[{
+	"title": "Soluciones de infraestructura",
+	"examples": ["Arquitectura de microservicios en AWS con Docker y Kubernetes",
+				"Configuración de instancias EC2",
+				"Despliegue de aplicaciones en entornos SaaS (Heroku)",
+				"Despliegue de aplicaciones en entornos PaaS (Openshift)"]
+},{
+	"title": "Soluciones de aplicaciones en servidor",
+	"examples": ["Aplicaciones spring-boot",
+				"Aplicaciones node.js con Sails",
+				"Aplicaciones J2EE"]
+},{
+	"title": "Soluciones de aplicaciones en cliente",
+	"examples": ["Aplicaciones para Android",
+				"Aplicaciones para IOS",
+				"Aplicaciones web"]
+}]

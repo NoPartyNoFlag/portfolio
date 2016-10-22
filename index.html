@@ -33,7 +33,21 @@
             </div>
         </div>
         <h2>Presentación</h2>
-        <p>Hola Fernando Rueda Oliva programador con más de 6 años de experiencia trabajando con diferentes clientes creando y proveeyendo soluciones tecnológicas</p>
+        <p>Hola soy Fernando Rueda Oliva desarrollador fullstack con más de 6 años de experiencia trabajando con diferentes clientes creando y proveeyendo soluciones tecnológicas.
+        <div class="row">
+            <div class="col-sm-4" ng-repeat="solution in solutions">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        {{solution.title}}
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-info" ng-repeat="example in solution.examples">{{example}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <h2>Experiencia profesional</h2>
         <div>
