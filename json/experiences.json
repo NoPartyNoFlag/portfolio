@@ -9,7 +9,7 @@
 		},{
 			"title": "Juego emociones para blog de psicología",
 			"url": "https://nopartynoflag.bitbucket.io/emociones/",
-			"description": "Juego de memoria infantil en javascript para un blog de psicología. El juego es completamente embebible en cualquier página web. El único requisitos es realizar una llamada ajax a la siguiente url y cargar el contenido de la respuesta. Ejemplo: <script> $('#contenedorJuego') .load( 'https://nopartynoflag.bitbucket.io/emociones/' ) </script>. Podéis ver la entrada compeleta en http://wikinenes.blogspot.com.es/2015/11/juego-de-emociones.html",
+			"description": "Juego de memoria infantil en javascript para un blog de psicología. El juego es completamente embebible en cualquier página web. El único requisitos es realizar una llamada ajax a la siguiente url y cargar el contenido de la respuesta. Ejemplo: <script> $('#contenedorJuego') .load( 'https://nopartynoflag.bitbucket.io/emociones/' ) </script>. Podéis ver la entrada completa en http://wikinenes.blogspot.com.es/2015/11/juego-de-emociones.html",
 			"technologies": ["Jquery", "html5", "css3"]
 		}
 	]
