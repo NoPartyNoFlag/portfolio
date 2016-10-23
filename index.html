@@ -44,6 +44,11 @@
                         <ul class="list-group">
                             <li class="list-group-item list-group-item-info" ng-repeat="example in solution.examples">{{example}}</li>
                         </ul>
+                        <div class="row">
+                            <div ng-repeat="icon in solution.icons" class="col-sm-4 text-center">
+                                <i class="fa fa-{{icon}} fa-4x" aria-hidden="true"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
