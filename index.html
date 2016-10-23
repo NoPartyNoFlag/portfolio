@@ -65,7 +65,10 @@
                                 <h3>Proyectos</h3>
                                 <div class="row">
                                     <div class="col-sm-{{12/experience.projects.length}}" ng-repeat="project in experience.projects">
-                                        <h4>{{project.title}} (<a target="_blank" href="{{project.url}}">{{project.url}}</a>)</h4>
+                                        <h4>
+                                            <a ng-if="project.url" target="_blank" href="{{project.url}}">{{project.title}}</a>
+                                            <a ng-if="!project.url" href="">{{project.title}}</a>
+                                        </h4>
                                         <p>{{project.description}}</p>
                                         <div>
                                             <ul class="list-inline">
@@ -87,7 +90,24 @@
                 </div>
             </div>
         </div>
-        
+    <footer class="footer hidden-print">
+      <div class="row">
+        <div class="col-xs-5">
+          <p>Fernando Rueda Oliva</p>
+        </div>
+        <div class="col-xs-7 text-right">
+          <a href="mailto:fernandoruedaoliva@gmail.com">fernandoruedaoliva@gmail.com</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-5">
+          <a href="https://twitter.com/petfinderweb" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+        </div>
+        <div class="col-xs-7 text-right">
+          <a href="https://www.facebook.com/profile.php?id=100012146880747&fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+        </div>
+      </div>
+    </footer>
         <script src="bower_components/angular/angular.min.js"></script>
         <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
         <script src="bower_components/angular-animate/angular-animate.min.js"></script>
