@@ -24,12 +24,12 @@
 		},{
 			"title": "Consulta interactiva mesa electoral para el 20D 2015",
 			"url": "",
-			"description": "Aplicación para que los habitante de una localidad puedan consultar el lugar de votación asignado.",
+			"description": "Aplicación para que los habitantes de una localidad puedan consultar el lugar de votación asignado.",
 			"technologies": ["node.js", "Sails", "MongoDB", "API RestFul", "Amazon AWS", "Docker", "Microservicios", "Kubernetes", "Angular", "Bower", "less", "Grunt"]
 		},{
 			"title": "Arquitectura microservicios aplicaciones Profile.",
 			"url": "",
-			"description": "",
+			"description": "Entorno de microservicios haciendo uso del stack de netflix con un punto único de entrada, un punto único de autenticación y un conjunto de microservicios orquestados por kubernetes.",
 			"technologies": ["Responsive", "Spring MVC", "Spring Boot", "Spring Cloud", "OAuth2", "MongoDB", "API RestFul", "Amazon AWS", "Docker", "Microservicios", "Kubernetes", "Jenkins", "OpenShift", "Angular", "Bower", "less", "Grunt"]
 		}
 	]
