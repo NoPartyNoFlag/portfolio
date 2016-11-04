@@ -1,6 +1,6 @@
 [{
 	"title": "Freelance",
-	"description": "Trabajo en diferentes proyecto y clientes proveyendo soluciones óptimas a sus necesitades.",
+	"description": "Trabajo en diferentes proyecto y clientes proveyendo soluciones óptimas adecuadas a sus necesitades.",
 	"projects": [{
 			"title": "PetFinder",
 			"url": "https://www.petfinder.es",
@@ -19,11 +19,11 @@
 	]
 },{
 	"title": "Arquitecto tecnológico",
-	"description": "Arquitecto tecnológico encargado de encontrar soluciones optimas e innovadoras en el centro de desarrollo ágil de Profile. Asistencia a conferencias tecnológicas (Java BCN 2015, Codemotion 2015...) para incorporar las últimas tecnologías y formar al resto del equipo.",
+	"description": "Arquitecto tecnológico encargado de encontrar soluciones óptimas e innovadoras en el centro de desarrollo ágil de Profile. Asistencia a conferencias (Java BCN 2015, Codemotion 2015...) para incorporar las últimas tecnologías y formar al resto del equipo.",
 	"projects": [{
 			"title": "Mutua madrileña hogar",
 			"url": "",
-			"description": "Aplicaciónes de gestión de seguros de hogar. (parte pública y privada)",
+			"description": "Aplicaciónes de gestión de seguros de hogar.",
 			"technologies": ["spring-security", "spring-batch", "Jenkins", "sonar", "Spring MVC", "Spring-Data", "spring-test", "mockito", "Hibernate", "DB2"]
 		},{
 			"title": "Consulta interactiva mesa electoral para el 20D 2015",
@@ -33,8 +33,8 @@
 		},{
 			"title": "Arquitectura microservicios aplicaciones Profile.",
 			"url": "",
-			"description": "Diseño de la arquiectura de microservicios usando el stack de netflix, el framework de spring, contenedores Docker y el framework de google Kubernetes. Implantado en AWS con integración continua con Git y Jenkins",
-			"technologies": ["Responsive", "Spring MVC", "Spring Boot", "Spring Cloud", "OAuth2", "MongoDB", "API RestFul", "Amazon AWS", "Docker", "Microservicios", "Kubernetes", "Jenkins", "OpenShift", "Angular", "Bower", "less", "Grunt"]
+			"description": "Diseño de la arquiectura de microservicios usando el stack de netflix, el framework de spring, contenedores Docker y el framework de google Kubernetes. Implantado en AWS con mecanismo de integración continua.",
+			"technologies": ["Responsive", "Spring MVC", "Spring Boot", "Spring Cloud", "OAuth2", "MongoDB", "API RestFul", "Amazon AWS", "Docker", "Microservicios", "Kubernetes", "Jenkins", "Git", "OpenShift", "Angular", "Bower", "less", "Grunt"]
 		}
 	]
 }]

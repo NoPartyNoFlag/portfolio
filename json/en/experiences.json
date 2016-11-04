@@ -33,8 +33,8 @@
 		},{
 			"title": "Microservices architecture",
 			"url": "",
-			"description": "Architect designer of microservices architecture using Netflix stack, spring framework, Docker containers and Kubernetes google framework. Integrated at AWS using continuous integration with Git and Jenkins.",
-			"technologies": ["Responsive", "Spring MVC", "Spring Boot", "Spring Cloud", "OAuth2", "MongoDB", "API RestFul", "Amazon AWS", "Docker", "Microservices", "Kubernetes", "Jenkins", "OpenShift", "Angular", "Bower", "less", "Grunt"]
+			"description": "Architect designer of microservices architecture using Netflix stack, spring framework, Docker containers and Kubernetes google framework. Integrated at AWS using continuous integration.",
+			"technologies": ["Responsive", "Spring MVC", "Spring Boot", "Spring Cloud", "OAuth2", "MongoDB", "API RestFul", "Amazon AWS", "Docker", "Microservices", "Kubernetes", "Jenkins", "Git", "OpenShift", "Angular", "Bower", "less", "Grunt"]
 		}
 	]
 }]
