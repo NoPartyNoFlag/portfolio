@@ -1,41 +1,47 @@
 
 angular.module('portfolio', ['duParallax', 'ui.bootstrap']).
-  controller('HomeController', function($scope, parallaxHelper, $http, $location){
-    $scope.background = parallaxHelper.createAnimator(-0.3);
+    config(function($locationProvider) {
+        $locationProvider.html5Mode({
+          enabled: true,
+          requireBase: false
+        });
+    }).
+    controller('HomeController', function($scope, parallaxHelper, $http, $location){
+        $scope.background = parallaxHelper.createAnimator(-0.3);
 
-    $scope.experiencies = [];
-    $scope.parallaxSrc = [];
+        $scope.experiencies = [];
+        $scope.parallaxSrc = [];
 
-    var lang = $location.search().lang;
-    if(lang){
-        lang = '/' + lang + '/';
-    }else{
-        lang = '';
+        var lang = $location.search().lang;
+        if(lang == 'en'){
+            lang = lang + '/';
+        }else{
+            lang = '';
+        }
+
+        $http.get('/json/' + lang + 'experiences.json').then(function(response){
+        	$scope.experiencies = response.data;
+        }, function(response){
+        	console.log(response)
+        });
+
+        $http.get('/json/' + lang + 'images.json').then(function(response){
+        	$scope.parallaxSrc = response.data;
+        }, function(response){
+        	console.log(response)
+        });
+
+        $http.get('/json/' + lang + 'solutions.json').then(function(response){
+        	$scope.solutions = response.data;
+        }, function(response){
+        	console.log(response)
+        });
+
+        $http.get('/json/' + lang + 'layout.json').then(function(response){
+            $scope.layout = response.data;
+        }, function(response){
+            console.log(response)
+        });
+
     }
-
-    $http.get('/json/' + lang + 'experiences.json').then(function(response){
-    	$scope.experiencies = response.data;
-    }, function(response){
-    	console.log(response)
-    });
-
-    $http.get('/json/' + lang + 'images.json').then(function(response){
-    	$scope.parallaxSrc = response.data;
-    }, function(response){
-    	console.log(response)
-    });
-
-    $http.get('/json/' + lang + 'solutions.json').then(function(response){
-    	$scope.solutions = response.data;
-    }, function(response){
-    	console.log(response)
-    });
-
-    $http.get('/json/' + lang + 'layout.json').then(function(response){
-        $scope.layout = response.data;
-    }, function(response){
-        console.log(response)
-    });
-
-  }
 );

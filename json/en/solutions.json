@@ -1,20 +1,20 @@
 [{
-	"title": "Soluciones de infraestructura",
-	"examples": ["Arquitectura de microservicios en AWS con Docker y Kubernetes",
-				"Configuración de instancias EC2",
-				"Despliegue de aplicaciones en entornos SaaS (Heroku)",
-				"Despliegue de aplicaciones en entornos PaaS (Openshift)"],
+	"title": "Infraestructura solutions",
+	"examples": ["Microservices architecture on AWS with Docker and Kubernetes",
+				"EC2 instances configuration",
+				"Desploy apps on SaaS enviroments (Heroku)",
+				"Desploy apps on SaaS enviroments PaaS (Openshift)"],
 	"icons": ["cloud", "amazon", "gears"]
 },{
-	"title": "Soluciones de aplicaciones en servidor",
-	"examples": ["Aplicaciones spring-boot",
-				"Aplicaciones node.js con Sails",
-				"Aplicaciones J2EE"],
+	"title": "Server apps solutions",
+	"examples": ["spring-boot Apps",
+				"node.js & Sails Apps",
+				"J2EE Apps"],
 	"icons": ["leaf", "code-fork", "coffee"]
 },{
-	"title": "Soluciones de aplicaciones en cliente",
-	"examples": ["Aplicaciones para Android",
-				"Aplicaciones para IOS",
-				"Aplicaciones web"],
+	"title": "Client apps solutions",
+	"examples": ["Android Apps",
+				"IOS Apps",
+				"web Apps"],
 	"icons": ["android", "apple", "html5"]
 }]
