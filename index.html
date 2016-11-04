@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     </head>
-    <body ng-app="portfolio" ng-controller="HomeController"  class="container">
+    <body ng-app="portfolio" ng-controller="HomeController"  class="container ng-cloak">
         <div class="page-header">
             <div class="row">
                 <div class="col-xs-6">
@@ -32,8 +32,8 @@
                 <h1>Fernando Rueda Oliva</h1>
             </div>
         </div>
-        <h2>Presentación</h2>
-        <p>Hola soy Fernando Rueda Oliva desarrollador fullstack con más de 6 años de experiencia trabajando con diferentes clientes creando y proveeyendo soluciones tecnológicas.
+        <h2>{{layout.presentacion.titulo}}</h2>
+        <p>{{layout.presentacion.descripcion}}</p>
         <div class="row">
             <div class="col-sm-4" ng-repeat="solution in solutions">
                 <div class="panel panel-primary">
@@ -54,7 +54,7 @@
             </div>
         </div>
         
-        <h2>Experiencia profesional</h2>
+        <h2>{{layout.experienciaProfesional.titulo}}</h2>
         <div>
             <div class="row">
                 <div class="col-sm-12" ng-repeat="experience in experiencies">
@@ -62,7 +62,7 @@
                         <div class="panel-heading">{{experience.title}}</div>
                         <div class="panel-body">{{experience.description}}
                             <div>
-                                <h3>Proyectos</h3>
+                                <h3>{{layout.experienciaProfesional.subtitulo}}</h3>
                                 <div class="row">
                                     <div class="col-sm-{{12/experience.projects.length}}" ng-repeat="project in experience.projects">
                                         <h4>

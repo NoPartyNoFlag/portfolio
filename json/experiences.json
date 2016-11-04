@@ -9,8 +9,12 @@
 		},{
 			"title": "Juego emociones para blog de psicología",
 			"url": "https://nopartynoflag.bitbucket.io/emociones/",
-			"description": "Juego de memoria infantil en javascript para un blog de psicología. El juego es completamente embebible en cualquier página web. El único requisitos es realizar una llamada ajax a la siguiente url y cargar el contenido de la respuesta. Ejemplo: <script> $('#contenedorJuego') .load('https://nopartynoflag.bitbucket.io/emociones/') </script>. Podéis ver la entrada compeleta en http://wikinenes.blogspot.com.es/2015/11/juego-de-emociones.html",
+			"description": "Juego de memoria infantil en javascript para un blog de psicología. El juego embebible en cualquier página web. Ejemplo: <script> $('#contenedorJuego') .load('https://nopartynoflag.bitbucket.io/emociones/') </script>. Podéis ver la entrada compeleta en http://wikinenes.blogspot.com.es/2015/11/juego-de-emociones.html",
 			"technologies": ["Jquery", "html5", "css3"]
+		},{
+			"title": "BeTheOne (actualmente en progreso)",
+			"description": "Red social de competiciones. Aplicación hibrida ionic para ios, android and windows.",
+			"technologies": ["sails, node.js, bower, ionic"]
 		}
 	]
 },{
@@ -20,7 +24,7 @@
 			"title": "Mutua madrileña hogar",
 			"url": "",
 			"description": "Aplicaciónes de gestión de seguros de hogar. (parte pública y privada)",
-			"technologies": ["Spring MVC", "Spring-Data", "spring-test", "mockito", "Hibernate", "DB2"]
+			"technologies": ["spring-security", "spring-batch", "Jenkins", "sonar", "Spring MVC", "Spring-Data", "spring-test", "mockito", "Hibernate", "DB2"]
 		},{
 			"title": "Consulta interactiva mesa electoral para el 20D 2015",
 			"url": "",
@@ -29,7 +33,7 @@
 		},{
 			"title": "Arquitectura microservicios aplicaciones Profile.",
 			"url": "",
-			"description": "",
+			"description": "Diseño de la arquiectura de microservicios usando el stack de netflix, el framework de spring, contenedores Docker y el framework de google Kubernetes. Implantado en AWS con integración continua con Git y Jenkins",
 			"technologies": ["Responsive", "Spring MVC", "Spring Boot", "Spring Cloud", "OAuth2", "MongoDB", "API RestFul", "Amazon AWS", "Docker", "Microservicios", "Kubernetes", "Jenkins", "OpenShift", "Angular", "Bower", "less", "Grunt"]
 		}
 	]

@@ -1,27 +1,40 @@
 
 angular.module('portfolio', ['duParallax', 'ui.bootstrap']).
-  controller('HomeController', function($scope, parallaxHelper, $http){
+  controller('HomeController', function($scope, parallaxHelper, $http, $location){
     $scope.background = parallaxHelper.createAnimator(-0.3);
 
     $scope.experiencies = [];
     $scope.parallaxSrc = [];
 
-    $http.get('/json/experiences.json').then(function(response){
+    var lang = $location.search().lang;
+    if(lang){
+        lang = '/' + lang + '/';
+    }else{
+        lang = '';
+    }
+
+    $http.get('/json/' + lang + 'experiences.json').then(function(response){
     	$scope.experiencies = response.data;
     }, function(response){
     	console.log(response)
     });
 
-    $http.get('/json/images.json').then(function(response){
+    $http.get('/json/' + lang + 'images.json').then(function(response){
     	$scope.parallaxSrc = response.data;
     }, function(response){
     	console.log(response)
     });
 
-    $http.get('/json/solutions.json').then(function(response){
+    $http.get('/json/' + lang + 'solutions.json').then(function(response){
     	$scope.solutions = response.data;
     }, function(response){
     	console.log(response)
+    });
+
+    $http.get('/json/' + lang + 'layout.json').then(function(response){
+        $scope.layout = response.data;
+    }, function(response){
+        console.log(response)
     });
 
   }

@@ -1,0 +1,41 @@
+[{
+	"title": "Freelance",
+	"description": "Web app development to find lost pets. App made with Sails, a node.js framework, mongoDB and angular JS. Hosted at Red Hat Open Shift PaaS system.",
+	"projects": [{
+			"title": "PetFinder",
+			"url": "https://www.petfinder.es",
+			"description": "App to help find lost pets.",
+			"technologies": ["PaaS", "Openshift", "node.js", "Sails", "mongoDB", "html5", "angular", "Social Login(Facebook & Google)"]
+		},{
+			"title": "Emotional game for psicology blog",
+			"url": "https://nopartynoflag.bitbucket.io/emociones/",
+			"description": "Javascript embeddable memory game for psicology blog. Youo can embed game by just doing this: <script> $('#container') .load('https://nopartynoflag.bitbucket.io/emociones/') </script>. Full post at: http://wikinenes.blogspot.com.es/2015/11/juego-de-emociones.html",
+			"technologies": ["Jquery", "html5", "css3"]
+		},{
+			"title": "BeTheOne (currenty in progress)",
+			"description": "Social competitions network. Hybrid app with ionic for ios, android and windows.",
+			"technologies": ["sails, node.js, bower, ionic"]
+		}
+	]
+},{
+	"title": "Arquitecto tecnológico",
+	"description": "Technology architect responsible of finding optimal and innovative solutions at the Profile agile development center.  Attendment to technologic conferences like Java BCN 2015 and Codemotion Madrid 2015 and 2016 to import formations and workshops to our team.",
+	"projects": [{
+			"title": "Mutua madrileña hogar",
+			"url": "",
+			"description": "App for home insurances management",
+			"technologies": ["spring-security", "spring-batch", "Jenkins", "sonar", "Spring MVC", "Spring-Data", "spring-test", "mockito", "Hibernate", "DB2"]
+		},{
+			"title": "Multimeda query app for general elections",
+			"url": "",
+			"description": "App to know where has the people to desposit their vote.",
+			"technologies": ["node.js", "Sails", "MongoDB", "API RestFul", "Amazon AWS", "Docker", "Microservices", "Kubernetes", "Angular", "Bower", "less", "Grunt"]
+		},{
+			"title": "Microservices architecture",
+			"url": "",
+			"description": "Architect designer of microservices architecture using Netflix stack, spring framework, Docker containers and Kubernetes google framework. Integrated at AWS using continuous integration with Git and Jenkins.",
+			"technologies": ["Responsive", "Spring MVC", "Spring Boot", "Spring Cloud", "OAuth2", "MongoDB", "API RestFul", "Amazon AWS", "Docker", "Microservices", "Kubernetes", "Jenkins", "OpenShift", "Angular", "Bower", "less", "Grunt"]
+		}
+	]
+}]
+
