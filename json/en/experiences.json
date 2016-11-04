@@ -1,6 +1,6 @@
 [{
 	"title": "Freelance",
-	"description": "Web app development to find lost pets. App made with Sails, a node.js framework, mongoDB and angular JS. Hosted at Red Hat Open Shift PaaS system.",
+	"description": "Working with multiple clients building and providing tech solutions",
 	"projects": [{
 			"title": "PetFinder",
 			"url": "https://www.petfinder.es",
