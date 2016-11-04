@@ -1,5 +1,5 @@
 [{
-	"title": "Infraestructura solutions",
+	"title": "Infraestructure solutions",
 	"examples": ["Microservices architecture on AWS with Docker and Kubernetes",
 				"EC2 instances configuration",
 				"Desploy apps on SaaS enviroments (Heroku)",

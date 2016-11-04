@@ -1,6 +1,6 @@
 [{
 	"title": "Freelance",
-	"description": "Desarrollo de aplicación web propia para facilitar la búsqueda de mascotas perdidas. Aplicación hecha con Sails, un framework de node.js, mongoDB y angular JS. Alojada en el sistema PAAS de integración continua de RedHat OpenShift",
+	"description": "Trabajo en diferentes proyecto y clientes proveyendo soluciones óptimas a sus necesitades.",
 	"projects": [{
 			"title": "PetFinder",
 			"url": "https://www.petfinder.es",

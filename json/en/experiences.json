@@ -9,7 +9,7 @@
 		},{
 			"title": "Emotional game for psicology blog",
 			"url": "https://nopartynoflag.bitbucket.io/emociones/",
-			"description": "Javascript embeddable memory game for psicology blog. Youo can embed game by just doing this: <script> $('#container') .load('https://nopartynoflag.bitbucket.io/emociones/') </script>. Full post at: http://wikinenes.blogspot.com.es/2015/11/juego-de-emociones.html",
+			"description": "Javascript embeddable memory game for psicology blog. You can embed game by just doing this: <script> $('#container') .load('https://nopartynoflag.bitbucket.io/emociones/') </script>. Full post at: http://wikinenes.blogspot.com.es/2015/11/juego-de-emociones.html",
 			"technologies": ["Jquery", "html5", "css3"]
 		},{
 			"title": "BeTheOne (currenty in progress)",
@@ -18,7 +18,7 @@
 		}
 	]
 },{
-	"title": "Arquitecto tecnológico",
+	"title": "Technology architect",
 	"description": "Technology architect responsible of finding optimal and innovative solutions at the Profile agile development center.  Attendment to technologic conferences like Java BCN 2015 and Codemotion Madrid 2015 and 2016 to import formations and workshops to our team.",
 	"projects": [{
 			"title": "Mutua madrileña hogar",
