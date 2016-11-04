@@ -12,36 +12,49 @@ angular.module('portfolio', ['duParallax', 'ui.bootstrap']).
         $scope.experiencies = [];
         $scope.parallaxSrc = [];
 
-        var lang = $location.search().lang;
-        if(lang == 'en'){
-            lang = lang + '/';
-        }else{
-            lang = '';
+        var getLang = function(){
+            var lang = $location.search().lang;
+
+            if(lang == 'en'){
+                lang = lang + '/';
+            }else{
+                lang = '';
+            }
+
+            return lang
         }
 
-        $http.get('/json/' + lang + 'experiences.json').then(function(response){
-        	$scope.experiencies = response.data;
-        }, function(response){
-        	console.log(response)
-        });
+        $scope.loadTextByLang = function(lang){
+            if(lang === undefined){
+                lang = getLang();
+            }
 
-        $http.get('/json/' + lang + 'images.json').then(function(response){
-        	$scope.parallaxSrc = response.data;
-        }, function(response){
-        	console.log(response)
-        });
+            $http.get('/json/' + lang + 'experiences.json').then(function(response){
+                $scope.experiencies = response.data;
+            }, function(response){
+                console.log(response)
+            });
 
-        $http.get('/json/' + lang + 'solutions.json').then(function(response){
-        	$scope.solutions = response.data;
-        }, function(response){
-        	console.log(response)
-        });
+            $http.get('/json/' + lang + 'images.json').then(function(response){
+                $scope.parallaxSrc = response.data;
+            }, function(response){
+                console.log(response)
+            });
 
-        $http.get('/json/' + lang + 'layout.json').then(function(response){
-            $scope.layout = response.data;
-        }, function(response){
-            console.log(response)
-        });
+            $http.get('/json/' + lang + 'solutions.json').then(function(response){
+                $scope.solutions = response.data;
+            }, function(response){
+                console.log(response)
+            });
+
+            $http.get('/json/' + lang + 'layout.json').then(function(response){
+                $scope.layout = response.data;
+            }, function(response){
+                console.log(response)
+            });
+        }
+
+        $scope.loadTextByLang();
 
     }
 );
