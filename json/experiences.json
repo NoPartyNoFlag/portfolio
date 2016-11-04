@@ -9,7 +9,7 @@
 		},{
 			"title": "Juego emociones para blog de psicología",
 			"url": "https://nopartynoflag.bitbucket.io/emociones/",
-			"description": "Juego de memoria infantil en javascript para un blog de psicología. El juego embebible en cualquier página web. Ejemplo: <script> $('#contenedorJuego') .load('https://nopartynoflag.bitbucket.io/emociones/') </script>. Podéis ver la entrada compeleta en http://wikinenes.blogspot.com.es/2015/11/juego-de-emociones.html",
+			"description": "Juego de memoria infantil en javascript para un blog de psicología. El juego embebible en cualquier página web. Ejemplo: <script> $('#contenedorJuego') .load( 'https://nopartynoflag.bitbucket.io/emociones/' ) </script>. Podéis ver la entrada completa en http://wikinenes.blogspot.com.es/2015/11/juego-de-emociones.html",
 			"technologies": ["Jquery", "html5", "css3"]
 		},{
 			"title": "BeTheOne (actualmente en progreso)",
@@ -28,7 +28,7 @@
 		},{
 			"title": "Consulta interactiva mesa electoral para el 20D 2015",
 			"url": "",
-			"description": "Aplicación para que los habitante de una localidad puedan consultar el lugar de votación asignado.",
+			"description": "Aplicación para que los habitantes de una localidad puedan consultar el lugar de votación asignado.",
 			"technologies": ["node.js", "Sails", "MongoDB", "API RestFul", "Amazon AWS", "Docker", "Microservicios", "Kubernetes", "Angular", "Bower", "less", "Grunt"]
 		},{
 			"title": "Arquitectura microservicios aplicaciones Profile.",
