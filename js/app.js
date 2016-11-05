@@ -1,10 +1,13 @@
 
-angular.module('portfolio', ['duParallax', 'ui.bootstrap']).
-    config(function($locationProvider) {
+angular.module('portfolio', ['duParallax', 'ui.bootstrap', 'angulartics', 'angulartics.google.analytics']).
+    config(function($locationProvider, $analyticsProvider) {
         $locationProvider.html5Mode({
           enabled: true,
           requireBase: false
         });
+
+        $analyticsProvider.firstPageview(true); /* Records pages that don't use $state or $route */
+        $analyticsProvider.withAutoBase(true);  /* Records full path */
     }).
     controller('HomeController', function($scope, parallaxHelper, $http, $location){
         $scope.background = parallaxHelper.createAnimator(-0.3);

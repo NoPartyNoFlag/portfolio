@@ -22,6 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "famfamfam-flags": "^1.0.0"
+    "famfamfam-flags": "^1.0.0",
+    "angulartics-google-analytics": "^0.3.0"
   }
 }
