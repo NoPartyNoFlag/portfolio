@@ -2,8 +2,8 @@
 	"title": "Infraestructure solutions",
 	"examples": ["Microservices architecture on AWS with Docker and Kubernetes",
 				"EC2 instances configuration",
-				"Desploy apps on SaaS enviroments (Heroku)",
-				"Desloy apps on SaaS enviroments PaaS (Openshift)"],
+				"Deploy apps on SaaS enviroments (Heroku)",
+				"Deploy apps on SaaS enviroments PaaS (Openshift)"],
 	"icons": ["cloud", "amazon", "gears"]
 },{
 	"title": "Server apps solutions",
