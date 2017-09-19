@@ -22,9 +22,14 @@
 		}
 	]
 },{
-	"title": "Arquitecto tecnológico",
-	"description": "Arquitecto tecnológico encargado de encontrar soluciones óptimas e innovadoras en el centro de desarrollo ágil de Profile. Asistencia a conferencias (Java BCN 2015, Codemotion 2015...) para incorporar las últimas tecnologías y formar al resto del equipo.",
+	"title": "Arquitecto software",
+	"description": "Trabajo como ingeniero de software en el Digital:Lab de Volkswagen en Berlín en un equipo multidisciplinar donde lo más importante es la calidad del producto, el equipo y disfrutar del trabajo. Aplicando TDD y pair programming para conseguir una buena calidad del código y haciendo eventos para el equipo y la oficina para construir una buena comunidad y hacer que la gente se sienta mas unida.",
 	"projects": [{
+			"title": "Hexad GmbH",
+			"url": "",
+			"description": "Desarrolo de una plataforma para la el análisis, procesamiento y visaluzación en tiempo de real de vehículos. Solucion integral desde la configuración del un dispositivo linux FPGA para transmitir la telemetria hasta su correspondiente análisis, procesamiento y visualización.",
+			"technologies": ["Go", "Typescript", "Kotlin", "Angular 4", "Ionic 3", "Docker", "Kubernetes", "Concourse", "microservices architecture", "netflix OSS", "cloud foundry", "AWS"]
+		},{
 			"title": "Mutua madrileña hogar",
 			"url": "",
 			"description": "Aplicaciónes de gestión de seguros de hogar.",

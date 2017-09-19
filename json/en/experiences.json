@@ -22,9 +22,16 @@
 		}
 	]
 },{
-	"title": "Technology architect",
-	"description": "Technology architect responsible of finding optimal and innovative solutions at the Profile agile development center.  Attendment to technologic conferences like Java BCN 2015 and Codemotion Madrid 2015 and 2016 to import formations and workshops to our team.",
-	"projects": [{
+	"title": "Software architect",
+	"description": "Working as Software engineer at Digital:Lab Volkswagen in a multidisciplinary team where the most important things are the product quality, the team and having fun!! Using TDD and pair programming to achieve the code quality. Doing team or office events to make people feel more close and build a good community.",
+	"projects": [
+		{
+			"title": "Hexad GmbH",
+			"url": "",
+			"description": "I'm currently working on a real time platform for tracking vehicles. We are building the full solution, from setting up a linux FPGA device for transmitting the telemetry information to processing, analyzing and displaying the information.",
+			"technologies": ["Go", "Typescript", "Kotlin", "Angular 4", "Ionic 3", "Docker", "Kubernetes", "Concourse", "microservices architecture", "netflix OSS", "cloud foundry", "AWS"]
+		},
+		{
 			"title": "Mutua madrileña hogar",
 			"url": "",
 			"description": "App for home insurances management",
