@@ -27,7 +27,7 @@
 	"projects": [{
 			"title": "Hexad GmbH",
 			"url": "",
-			"description": "Desarrolo de una plataforma para la el análisis, procesamiento y visaluzación en tiempo de real de vehículos. Solucion integral desde la configuración del un dispositivo linux FPGA para transmitir la telemetria hasta su correspondiente análisis, procesamiento y visualización.",
+			"description": "Desarrollo de una plataforma para la el análisis, procesamiento y visualización en tiempo de real de vehículos. Solución integral desde la configuración de un dispositivo linux FPGA para transmitir la telemetría hasta su correspondiente análisis, procesamiento y visualización.",
 			"technologies": ["Go", "Typescript", "Kotlin", "Angular 4", "Ionic 3", "Docker", "Kubernetes", "Concourse", "microservices architecture", "netflix OSS", "cloud foundry", "AWS"]
 		},{
 			"title": "Mutua madrileña hogar",
