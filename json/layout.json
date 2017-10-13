@@ -1,7 +1,7 @@
 {
 	"presentacion": {
 		"titulo": "¿Quién soy?",
-		"descripcion": "Hola soy Fernando Rueda Oliva, ingeniero de software en el Digital:Lab de Volkswagen en Berlín en un equipo multidisciplinar donde lo más importante es la calidad del producto, el equipo y disfrutar del trabajo. Para conseguir una buena calidad de código nuestros fundamentos son el TDD y pair programming, pero al mismo tiempo somos una comunidad que realiza eventos para compartir nuestro conocimiento y experiencias y así conseguir que todo el mundo se sienta parte de algo mas allá de su equipo y proyecto."
+		"descripcion": "Hola soy Fernando Rueda Oliva, ingeniero de software en un equipo multidisciplinar donde lo más importante es la calidad del producto, el equipo y disfrutar del trabajo. Para conseguir una buena calidad de código nuestros fundamentos son el TDD y pair programming, pero al mismo tiempo somos una comunidad que realiza eventos para compartir nuestro conocimiento y experiencias y así conseguir que todo el mundo se sienta parte de algo mas allá de su equipo y proyecto."
 	},
 	"experienciaProfesional": {
 		"titulo": "Experiencia profesional",
